@@ -35,7 +35,7 @@ private:
 
 
     // since c==17, could be initialised inside the class using inline: 
-    inline static int rand_non_const_stat = 8;
+    inline static int rand_non_const_stat = 8;  // use thissss methodddd
     // Inline:
     // Allows a variable to be defined in a header without violating the ODR.
     // The linker merges all copies into one — one address, one value.
